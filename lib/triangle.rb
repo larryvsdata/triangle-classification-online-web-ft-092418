@@ -12,7 +12,17 @@ def valid?
   @x1 + @x2 > @x3 && @x2 + @x3 > @x1 && @x1 + @x3 > @x2
 end
 
-
+def kind 
+  
+  if self.valid?
+    
+    
+  else
+    
+    
+  end
+  
+end
 
 
 
