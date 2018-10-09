@@ -29,11 +29,8 @@ def kind
     begin
         raise TriangleError
     
+    end
   end
-  
-
-
-
 
 
 class TriangleError < StandardError
