@@ -31,12 +31,12 @@ def kind
     
   end
   
-end
 
 
 
 
-  class TriangleError < StandardError
+
+class TriangleError < StandardError
       def message 
       "Not a triangle. "
        end
