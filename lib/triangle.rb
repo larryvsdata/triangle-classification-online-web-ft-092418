@@ -25,14 +25,13 @@ def kind
     end
     
   else
-    
-    begin
-        raise TriangleError
-    end
-    
+  raise TriangleError
+
   end
 
-
+class TriangleError < StandardError
+    
+      end
 
 
 end
