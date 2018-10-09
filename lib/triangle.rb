@@ -13,8 +13,14 @@ def valid?
 end
 
 
+
+
+
+
   class TriangleError < StandardError
-    # triangle error code
+        def message 
+      "Not a triangle. "
+    end
   end
 
 end
