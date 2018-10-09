@@ -33,9 +33,7 @@ def kind
 
 
 class TriangleError < StandardError
-       
-      "Not a triangle. "
-     
-  end
+    
+      end
 
 end
